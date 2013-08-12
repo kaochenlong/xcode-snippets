@@ -3,22 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>getx</string>
+	<string>init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>CGRectGetMinX(&lt;#rect#&gt;)</string>
+	<string>- (id) initWithCoder:(NSCoder *) aDecoder
+{
+    if (self == [super initWithCoder:aDecoder])
+    {
+        // do some initialize tasks here
+        &lt;# do something here #&gt;
+    }
+    
+    return self;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3AF68DCA-2E0B-475E-A0C0-9889EBAB443F</string>
+	<string>1E8EE59D-83E9-40AE-8C39-13F0575E337E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>get X position of CGRect</string>
+	<string>InitWithCoder</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
