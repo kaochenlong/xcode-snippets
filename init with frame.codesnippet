@@ -9,26 +9,25 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (id) initWithCoder:(NSCoder *) aDecoder
+	<string>- (id) initWithFrame:(CGRect) frame
 {
-    if (self == [super initWithCoder:aDecoder])
+    if (self = [super initWithFrame:frame])
     {
-        // do some initialize tasks here
-        &lt;#do something here #&gt;
+        // Initialization code
+        &lt;#do something here#&gt;
     }
-
     return self;
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1E8EE59D-83E9-40AE-8C39-13F0575E337E</string>
+	<string>51A8B6F9-B4EE-41BE-A1CD-0F9EDBC50523</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>InitWithCoder</string>
+	<string>InitWithFrame</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
